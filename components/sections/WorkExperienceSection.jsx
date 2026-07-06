@@ -118,7 +118,7 @@ export default function WorkExperienceSection() {
         <span className={styles.labelRight}>0{EXPS.length} Companies</span>
       </div>
 
-      <div className={styles.timeline}>
+      <div className={`${styles.timeline} allow-scroll`}>
         <div className={styles.timelineBody}>
 
           {/* Snake connector */}

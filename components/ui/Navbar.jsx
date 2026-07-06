@@ -12,14 +12,15 @@ import profile from '@/data/profile.json'
 import styles from '@/styles/ui/Navbar.module.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-// idx matches snap position in page.js (0=video,1=hero,2=about,3-4=projects,5=work-exp,6=publications,7=footer)
+const P = profile.projects.length
+
 const NAV_ITEMS = [
   { label: 'Home',         idx: 0 },
   { label: 'About',        idx: 2 },
   { label: 'Work',         idx: 3 },
-  { label: 'Experience',   idx: 5 },
-  { label: 'Impact',       idx: 6 },
-  { label: 'Contact',      idx: 7 },
+  { label: 'Experience',   idx: 3 + P },
+  { label: 'Impact',       idx: 4 + P },
+  { label: 'Contact',      idx: 6 + P },
 ]
 
 function getIST() {

@@ -197,7 +197,7 @@
 
   .section {
     grid-template-columns: 1fr;
-    grid-template-rows: 60svh 1fr;
+    grid-template-rows: 45svh 1fr;
     height: 100svh;
     min-height: -webkit-fill-available;
     overflow: hidden;

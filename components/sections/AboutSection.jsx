@@ -117,7 +117,7 @@ export default function AboutSection() {
       </div>
 
       {/* ── Right: content ───────────────────────────── */}
-      <div ref={contentRef} className={styles.content}>
+      <div ref={contentRef} className={`${styles.content} allow-scroll`}>
 
         {/* Who I Am - label + infinite marquee */}
         <p className={styles.whoLabel}>Who I Am</p>

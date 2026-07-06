@@ -84,6 +84,7 @@ export default function Home() {
     }
 
     function onWheel(e) {
+      if (e.target.closest('.allow-scroll')) return
       e.preventDefault()
       if (busyRef.current) return
       goTo(idxRef.current + (e.deltaY > 0 ? 1 : -1))
@@ -92,6 +93,7 @@ export default function Home() {
     let touchY = 0
     function onTouchStart(e) { touchY = e.touches[0].clientY }
     function onTouchEnd(e) {
+      if (e.target.closest('.allow-scroll')) return
       const dy = touchY - e.changedTouches[0].clientY
       if (Math.abs(dy) < 40 || busyRef.current) return
       goTo(idxRef.current + (dy > 0 ? 1 : -1))
