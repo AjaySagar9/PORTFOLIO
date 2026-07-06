@@ -1,0 +1,24 @@
+.scrollIndicator {
+  position: fixed;
+  bottom: 2rem;
+  left: 1.375rem;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-primary, #fff); /* Fallback to white if variable missing */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Drop shadow so it is visible on light AND dark */
+  opacity: 0.8;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.scrollText {
+  font-size: 0.44rem;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-transform: uppercase;
+}

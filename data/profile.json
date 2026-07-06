@@ -1,0 +1,193 @@
+{
+  "name": {
+    "first": "Ajay",
+    "last": "Sagar",
+    "full": "Ajay Sagar"
+  },
+  "email": "sajaysagar346@gmail.com",
+  "tagline": "Building full-stack products and agentic AI systems, one clean commit at a time.",
+  "description": "Full Stack Developer (MERN) and AI/Agentic Engineer building production-ready web apps and Claude/LLM-powered agents.",
+  "roles": {
+    "short": "Full Stack & AI Engineer",
+    "detailed": "MERN Full Stack Developer | Agentic AI Engineer | B.Tech CSE"
+  },
+  "location": {
+    "based": "Bareilly, Uttar Pradesh, India",
+    "availability": "AnyWhere"
+  },
+  "available": true,
+  "bio": "B.Tech Computer Science student (RBMI Group of Institutions, AKTU), graduating September 2027, with hands-on internship experience building social platform and marketplace products at SuperX Corporation, Noida. Core stack is MERN (React.js, Node.js, Express, MongoDB) and Python, layered with an AI/agentic engineering toolkit spanning Claude/Anthropic APIs, LangGraph, MCP (Model Context Protocol), OpenAI API, and Gemini AI. Focused on shipping real, usable products, from full-stack web apps to autonomous AI agents.",
+  "stats": [
+    {
+      "value": "MERN",
+      "label": "Core Stack"
+    },
+    {
+      "value": "20+",
+      "label": "AI/Agentic Tools"
+    },
+    {
+      "value": "2027",
+      "label": "Graduating"
+    }
+  ],
+  "skills": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "Python",
+    "Claude / Anthropic API",
+    "LangGraph",
+    "MCP (Model Context Protocol)",
+    "OpenAI API",
+    "Gemini AI",
+    "REST API",
+    "Selenium",
+    "Git/GitHub",
+    "Data Structures & Algorithms",
+    "System Design"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Full Stack Developer Intern",
+      "company": "SuperX Corporation",
+      "companyShort": "SUPERX CORP",
+      "type": "Internship",
+      "location": "Noida, India",
+      "period": "Feb 2026",
+      "periodEnd": "May 2026",
+      "bullets": [
+        "Worked on building a social platform and marketplace product using the MERN stack.",
+        "Built and integrated React.js front-end features with Node.js/Express backend services.",
+        "Collaborated on MongoDB schema design and REST API development for core platform features.",
+        "Contributed to feature builds in a fast-paced startup environment, working across the full stack."
+      ],
+      "desc": "Full-stack development internship focused on building social platform and marketplace features end-to-end.",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST API"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "B.Tech, Computer Science",
+      "company": "RBMI Group of Institutions (Dr. A.P.J. Abdul Kalam Technical University)",
+      "companyShort": "RBMI / AKTU",
+      "type": "Education",
+      "location": "Bareilly, Uttar Pradesh",
+      "period": "2023",
+      "periodEnd": "Sep 2027",
+      "bullets": [
+        "Pursuing B.Tech in Computer Science with a focus on full-stack web development and AI/agentic systems.",
+        "Building independent projects spanning e-learning platforms, automation agents, and AI-powered tools.",
+        "Preparing for placement drives with strong focus on DSA, C, quantitative aptitude, and verbal ability."
+      ],
+      "desc": "Computer Science undergraduate coursework combined with self-driven full-stack and AI engineering projects.",
+      "tech": [
+        "DSA",
+        "C",
+        "Python",
+        "MERN Stack"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI-Powered E-Learning Platform",
+      "subtitle": "AI-Powered E-Learning Platform",
+      "type": "Full Stack + AI",
+      "link": "https://codefap-1.onrender.com",
+      "image": "/assets/project-ai powered e learning plateform.png",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AI Integration"
+      ],
+      "desc": "An AI-powered e-learning platform built on the MERN stack, designed to help learners study and practice with AI-assisted guidance."
+    },
+    {
+      "id": 2,
+      "title": "Auto Job Applier",
+      "subtitle": "LinkedIn Job Application Agent",
+      "type": "Automation",
+      "link": "https://github.com/AjaySagar9",
+      "image": "/assets/project-auto job aplier for linkedin.png",
+      "tech": [
+        "Python",
+        "Selenium",
+        "Automation",
+        "LinkedIn"
+      ],
+      "desc": "A Python/Selenium-based agent that automates searching and applying to relevant job listings on LinkedIn, saving hours of manual application effort."
+    },
+    {
+      "id": 3,
+      "title": "Guardian",
+      "subtitle": "Windows Parental Control App",
+      "type": "Desktop App",
+      "link": "https://github.com/AjaySagar9",
+      "image": "/assets/project-Gaurdian.png",
+      "tech": [
+        "Python",
+        "DNS Filtering",
+        "NudeNet",
+        "VPN Detection",
+        "Inno Setup"
+      ],
+      "desc": "A distributable Windows desktop parental control application with DNS-based content blocking, on-device screen scanning for inappropriate content, and VPN bypass prevention, packaged as a standalone installer."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "AI E-Learning Platform",
+      "platform": "Live Demo",
+      "year": "2026",
+      "link": "https://codefap-1.onrender.com",
+      "desc": "A live AI-powered e-learning platform built with the MERN stack, combining structured content with AI-assisted learning support."
+    },
+    {
+      "id": 2,
+      "title": "Agentic AI & LangGraph Experiments",
+      "platform": "GitHub",
+      "year": "2026",
+      "link": "https://github.com/AjaySagar9",
+      "desc": "Ongoing experiments in agentic AI architecture using LangGraph, MCP, and multi-model integrations (Claude, OpenAI, Gemini)."
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Development",
+      "platform": "Practice Area",
+      "year": "2026",
+      "link": "https://mail.google.com/mail/?view=cm&fs=1&to=sajaysagar346@gmail.com",
+      "desc": "MERN stack web application development, from React front-ends to Node/Express/MongoDB backends and REST API design."
+    },
+    {
+      "id": 4,
+      "title": "AI/Agentic Engineering",
+      "platform": "Practice Area",
+      "year": "2026",
+      "link": "https://mail.google.com/mail/?view=cm&fs=1&to=sajaysagar346@gmail.com",
+      "desc": "Building agentic systems and AI-integrated tools using Claude/Anthropic APIs, LangGraph, MCP, OpenAI API, and Gemini AI."
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/AjaySagar9"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/in/engineerajay"
+    }
+  ]
+}
